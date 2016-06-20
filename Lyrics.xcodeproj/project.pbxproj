@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A434AAD51CAD6DDA00D1654C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A434AAD41CAD6DDA00D1654C /* main.m */; };
+		A434AAE01CAD6DDA00D1654C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A434AADF1CAD6DDA00D1654C /* Assets.xcassets */; };
+		A434AAE31CAD6DDA00D1654C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A434AAE11CAD6DDA00D1654C /* LaunchScreen.storyboard */; };
+		A434AAF11CAD6DED00D1654C /* JKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A434AAEB1CAD6DED00D1654C /* JKAppDelegate.m */; };
+		A434AAF21CAD6DED00D1654C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A434AAEC1CAD6DED00D1654C /* Main.storyboard */; };
+		A434AAF31CAD6DED00D1654C /* JKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A434AAEE1CAD6DED00D1654C /* JKViewController.m */; };
+		A434AAF41CAD6DED00D1654C /* JKLrcTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A434AAF01CAD6DED00D1654C /* JKLrcTool.m */; };
+		A434AB031CAD774300D1654C /* 灿烂.lrc in Resources */ = {isa = PBXBuildFile; fileRef = A434AB011CAD774300D1654C /* 灿烂.lrc */; };
+		A434AB041CAD774300D1654C /* 灿烂.wmv in Resources */ = {isa = PBXBuildFile; fileRef = A434AB021CAD774300D1654C /* 灿烂.wmv */; };
+		A4D858A11CB3DF0500C34086 /* JKLrc.plist in Resources */ = {isa = PBXBuildFile; fileRef = A4D858A01CB3DF0500C34086 /* JKLrc.plist */; };
+		A4D858A41CB3E41700C34086 /* JKLrcModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D858A31CB3E41700C34086 /* JKLrcModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A434AAD01CAD6DDA00D1654C /* Lyrics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lyrics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A434AAD41CAD6DDA00D1654C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A434AADF1CAD6DDA00D1654C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A434AAE21CAD6DDA00D1654C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A434AAE41CAD6DDA00D1654C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A434AAEA1CAD6DED00D1654C /* JKAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKAppDelegate.h; sourceTree = "<group>"; };
+		A434AAEB1CAD6DED00D1654C /* JKAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKAppDelegate.m; sourceTree = "<group>"; };
+		A434AAEC1CAD6DED00D1654C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A434AAED1CAD6DED00D1654C /* JKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKViewController.h; sourceTree = "<group>"; };
+		A434AAEE1CAD6DED00D1654C /* JKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKViewController.m; sourceTree = "<group>"; };
+		A434AAEF1CAD6DED00D1654C /* JKLrcTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKLrcTool.h; sourceTree = "<group>"; };
+		A434AAF01CAD6DED00D1654C /* JKLrcTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKLrcTool.m; sourceTree = "<group>"; };
+		A434AB011CAD774300D1654C /* 灿烂.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "灿烂.lrc"; sourceTree = "<group>"; };
+		A434AB021CAD774300D1654C /* 灿烂.wmv */ = {isa = PBXFileReference; lastKnownFileType = file; path = "灿烂.wmv"; sourceTree = "<group>"; };
+		A4D858A01CB3DF0500C34086 /* JKLrc.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = JKLrc.plist; path = ../JKLrc.plist; sourceTree = "<group>"; };
+		A4D858A21CB3E41700C34086 /* JKLrcModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKLrcModel.h; sourceTree = "<group>"; };
+		A4D858A31CB3E41700C34086 /* JKLrcModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKLrcModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A434AACD1CAD6DDA00D1654C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A434AAC71CAD6DDA00D1654C = {
+			isa = PBXGroup;
+			children = (
+				A434AAD21CAD6DDA00D1654C /* Lyrics */,
+				A434AAD11CAD6DDA00D1654C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A434AAD11CAD6DDA00D1654C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A434AAD01CAD6DDA00D1654C /* Lyrics.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A434AAD21CAD6DDA00D1654C /* Lyrics */ = {
+			isa = PBXGroup;
+			children = (
+				A434AB011CAD774300D1654C /* 灿烂.lrc */,
+				A434AB021CAD774300D1654C /* 灿烂.wmv */,
+				A4D858A51CB3E42200C34086 /* JKLrcTool */,
+				A434AAEC1CAD6DED00D1654C /* Main.storyboard */,
+				A434AAED1CAD6DED00D1654C /* JKViewController.h */,
+				A434AAEE1CAD6DED00D1654C /* JKViewController.m */,
+				A434AAD31CAD6DDA00D1654C /* Supporting Files */,
+			);
+			path = Lyrics;
+			sourceTree = "<group>";
+		};
+		A434AAD31CAD6DDA00D1654C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A434AAEA1CAD6DED00D1654C /* JKAppDelegate.h */,
+				A434AAEB1CAD6DED00D1654C /* JKAppDelegate.m */,
+				A434AADF1CAD6DDA00D1654C /* Assets.xcassets */,
+				A434AAE11CAD6DDA00D1654C /* LaunchScreen.storyboard */,
+				A434AAE41CAD6DDA00D1654C /* Info.plist */,
+				A434AAD41CAD6DDA00D1654C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A4D858A51CB3E42200C34086 /* JKLrcTool */ = {
+			isa = PBXGroup;
+			children = (
+				A4D858A21CB3E41700C34086 /* JKLrcModel.h */,
+				A4D858A31CB3E41700C34086 /* JKLrcModel.m */,
+				A434AAEF1CAD6DED00D1654C /* JKLrcTool.h */,
+				A434AAF01CAD6DED00D1654C /* JKLrcTool.m */,
+				A4D858A01CB3DF0500C34086 /* JKLrc.plist */,
+			);
+			name = JKLrcTool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A434AACF1CAD6DDA00D1654C /* Lyrics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A434AAE71CAD6DDA00D1654C /* Build configuration list for PBXNativeTarget "Lyrics" */;
+			buildPhases = (
+				A434AACC1CAD6DDA00D1654C /* Sources */,
+				A434AACD1CAD6DDA00D1654C /* Frameworks */,
+				A434AACE1CAD6DDA00D1654C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lyrics;
+			productName = Lyrics;
+			productReference = A434AAD01CAD6DDA00D1654C /* Lyrics.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A434AAC81CAD6DDA00D1654C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = sky;
+				TargetAttributes = {
+					A434AACF1CAD6DDA00D1654C = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = SCQ86T8B64;
+					};
+				};
+			};
+			buildConfigurationList = A434AACB1CAD6DDA00D1654C /* Build configuration list for PBXProject "Lyrics" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A434AAC71CAD6DDA00D1654C;
+			productRefGroup = A434AAD11CAD6DDA00D1654C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A434AACF1CAD6DDA00D1654C /* Lyrics */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A434AACE1CAD6DDA00D1654C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A434AB041CAD774300D1654C /* 灿烂.wmv in Resources */,
+				A434AAF21CAD6DED00D1654C /* Main.storyboard in Resources */,
+				A434AAE31CAD6DDA00D1654C /* LaunchScreen.storyboard in Resources */,
+				A4D858A11CB3DF0500C34086 /* JKLrc.plist in Resources */,
+				A434AB031CAD774300D1654C /* 灿烂.lrc in Resources */,
+				A434AAE01CAD6DDA00D1654C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A434AACC1CAD6DDA00D1654C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A434AAF31CAD6DED00D1654C /* JKViewController.m in Sources */,
+				A434AAF11CAD6DED00D1654C /* JKAppDelegate.m in Sources */,
+				A434AAD51CAD6DDA00D1654C /* main.m in Sources */,
+				A4D858A41CB3E41700C34086 /* JKLrcModel.m in Sources */,
+				A434AAF41CAD6DED00D1654C /* JKLrcTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A434AAE11CAD6DDA00D1654C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A434AAE21CAD6DDA00D1654C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A434AAE51CAD6DDA00D1654C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A434AAE61CAD6DDA00D1654C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A434AAE81CAD6DDA00D1654C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Lyrics/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sky.Lyrics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A434AAE91CAD6DDA00D1654C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Lyrics/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sky.Lyrics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A434AACB1CAD6DDA00D1654C /* Build configuration list for PBXProject "Lyrics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A434AAE51CAD6DDA00D1654C /* Debug */,
+				A434AAE61CAD6DDA00D1654C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A434AAE71CAD6DDA00D1654C /* Build configuration list for PBXNativeTarget "Lyrics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A434AAE81CAD6DDA00D1654C /* Debug */,
+				A434AAE91CAD6DDA00D1654C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A434AAC81CAD6DDA00D1654C /* Project object */;
+}
